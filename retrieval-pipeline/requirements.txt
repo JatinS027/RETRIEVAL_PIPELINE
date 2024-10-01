@@ -1,0 +1,18 @@
+# Required libraries for the multi-stage text retrieval pipeline
+
+# General libraries
+numpy
+pandas
+nltk
+scikit-learn
+
+# Transformers and sentence embedding libraries
+transformers
+sentence-transformers
+
+# BEIR dataset loading
+beir
+
+# Optional: If you are using specific models that require GPU acceleration
+torch
+tensorflow
